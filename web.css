@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, rgba(182, 58, 58, 0.685), rgba(202, 144, 36, 0.733));
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.title-container{
+  flex: 1;
+  text-align: center;
+  /* background-color: aqua; */
+  padding-right: 10px;
+}
+
+#contact-button{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.logo-container{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  vertical-align: middle;
+}
+
+.github-logo, .link-logo{
+  height: 30px;
+  width: auto;
+  transition: transform 0.2s;
+}
+.github-logo:hover, .link-logo:hover {
+  transform: scale(1.1);
+}
