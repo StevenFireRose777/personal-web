@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steven Nuno</title>
-    <link rel="stylesheet" href="web.css">
-    
+    <link rel="stylesheet" href="web.css" />
   </head>
+
   <body>
     <header>
       <div class="logo-container">
-        <img src="logos/github-mark-white.svg" alt="github-pfp" class="github-logo">
-        <img src="logos/linkedin-svgrepo-com.svg" alt="link" class="link-logo">
+        <img
+          src="logos/github-mark-white.svg"
+          alt="github-pfp"
+          class="github-logo"
+        />
+        <img
+          src="logos/linkedin-svgrepo-com.svg"
+          alt="link"
+          class="link-logo"
+        />
       </div>
+
       <div class="title-container">
         <h1>Hi! Please look around!</h1>
       </div>
+
       <button id="contact-button">Contact</button>
     </header>
 
-    <div>
-      <button class="slider">Project</button>
-      <button class="slider">My Favorite Project</button>
-      <button class="slider">Blog</button>
+    <main>
 
+      <div class="slider-continer">
+
+        <button class="slider">Project</button>
+        <button class="slider">My Favorite Project</button>
+        <button class="slider">Blog</button>
+      </div>
       <div class="about-me-container">
         <p>[insert stuff]</p>
       </div>
-    </div>
+    </main>
 
     <footer>
       <p>Want to send a message?</p>
 
-      <p>Name</p>
-      <input type="text" />
-      <p>Email</p>
-      <input type="text" name="Email" id="" />
-      <p>Message</p>
-      <input type="text" name="Message" id="" />
-
-      <button type="submit">Send</button>
+      <div class="send-container">
+        <p>Email</p>
+        <input type="text" name="Email" id="email-sub" />
+        <p>Message</p>
+        <input type="text" name="Message" id="text-sub" />
+        <button type="submit" class="send-button">Send</button>
+      </div>
 
       <div class="bottom-footer">
         <a href=""></a>

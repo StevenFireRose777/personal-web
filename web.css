@@ -10,6 +10,21 @@ header{
   align-items: center;
   position: relative;
 }
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+footer .send-button{
+  margin-left: 7px;
+}
+.send-container{
+  position:relative;
+}
 .title-container{
   flex: 1;
   text-align: center;
